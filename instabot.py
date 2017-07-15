@@ -260,7 +260,8 @@ def get_tag_media(tag_name):
             print image_url
             urllib.urlretrieve(image_url, image_name)
             print 'Your post has been downloaded'
-            import webbrowser
+            import webb
+            rowser
             webbrowser.open(image_name)
             return tag_media['data'][0]['id']
         else:
@@ -280,7 +281,7 @@ def menu():
         print colored('2. Get user ID','red',attrs=['bold'])
         print colored('3. Get User Info','red',attrs=['bold'])
         print colored('4. Show your own recent Post','red',attrs=['bold'])
-        print colored('5. Get Post of Sandboxed User','red',attrs=['bold'])
+        print colored('5. Get recent liked post of Sandboxed User','red',attrs=['bold'])
         print colored('6. Get post ID','red',attrs=['bold'])
         print colored('7. Like a post of Sandboxed User(recent one)','red',attrs=['bold'])
         print colored('8. Post a comment','red',attrs=['bold'])
