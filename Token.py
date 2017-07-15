@@ -1,7 +1,3 @@
-#https://www.acadview.com/#access_token=5699864983.5a243e5.a5ea73c936464b23830eb6314dbdd1bb
-
-#Updated---   https://acadview.com/student/dashboard#access_token=5699864983.af1477f.2f86c2a9cefd4332b450a8b7945b8ed4
-
 #https://acadview.com/student/dashboard#access_token=5699864983.81e0027.1002e9a68f6c456e8f4eac525870d9d1
 
 import requests
@@ -13,7 +9,7 @@ print colored ('\n\t\t\t\t\t[Sandboxed Users are: test_account786 ]\n','red',att
 
 username='test_account786'
 
-#Function for proper authentication,only owner and Sandbox Users can use it
+#Function for proper authentication,only owner and Sandbox Users can access it
 
 def authentication():
     i = True
