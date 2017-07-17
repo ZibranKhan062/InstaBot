@@ -26,7 +26,7 @@ def authentication():
             break
 authentication()
 
-APP_ACCESS_TOKEN = '5699864983.81e0027.1002e9a68f6c456e8f4eac525870d9d1'        #Global Variable for App Access Token
+APP_ACCESS_TOKEN = '5699864983.4a78ce6.2a837d990d804bc485358abfac85aad1'        #Global Variable for App Access Token
 BASE_URL = 'https://api.instagram.com/v1/'                                      #Global Variable for Base URL
 
 #-------------Function Declaration for getting Self Information--------------------
